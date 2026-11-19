@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
+      body:Stack(
         children:[
           Container(
             width:MediaQuery.of(context).size.width,//Mediaquiry is used to get the size of the screen
@@ -18,7 +18,11 @@ class Home extends StatelessWidget {
               ),
               ),
         ),
-      SafeArea(child: Text("Receipe  Explorer",style: TextStyle(color: const Color.fromARGB(255, 238, 183, 18), fontSize: 24),),)
+      Column(children: [
+
+
+        //SearchBar
+      ],)
       ])
 
     );
