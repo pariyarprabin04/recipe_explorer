@@ -1,17 +1,12 @@
-# recepie_finder
+# Recipe Finder
 
-A new Flutter project.
+A Flutter recipe discovery app prototype. The home screen features a search field with a randomly selected recipe suggestion, a welcome heading, and a blue-to-pink gradient background.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Make sure the Flutter SDK is installed, then run:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+flutter pub get
+flutter run
+```
