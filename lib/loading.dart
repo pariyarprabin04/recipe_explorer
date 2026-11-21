@@ -38,7 +38,7 @@ class _LoadingState extends State<Loading> {
             const SizedBox(height: 20.0),
             Text(
               "Made by Prabin",
-              style: const TextStyle(
+              style: const TextStyle( 
                 fontSize: 30.0,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
